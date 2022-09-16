@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_card_fragments"
+    app:startDestination="@id/fragment_CardMenu">
+
+    <fragment
+        android:id="@+id/fragment_CardMenu"
+        android:name="com.example.comtechtool.Fragment_CardMenu"
+        android:label="fragment__card_menu"
+        tools:layout="@layout/fragment__card_menu" />
+</navigation>
